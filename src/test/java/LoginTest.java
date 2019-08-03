@@ -16,6 +16,7 @@ public class LoginTest {
 	@Test
 	public void doLogin() {
 		driver.get("https://gmail.com");
+		System.out.println("test done");
 	}
 	
 	@AfterSuite
